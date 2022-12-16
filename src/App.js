@@ -4,9 +4,10 @@ import Homepage from './components/Homepage';
 import ThemeSwitcher from './components/ThemeSwitcher';
 import Navbar from './components/Navbar';
 import About from './components/About'
-import Blog from './components/Blog'
+import Contact from './components/Contact'
 import Projects from './components/Projects'
 import Weather from './components/Weather'
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -24,7 +25,7 @@ function App() {
           <Routes>
           <Route path='/' element={<Homepage/>} />
             <Route path='/about' element={<About/>} />
-            <Route path='/blog' element={<Blog/>} />
+            <Route path='/contact' element={<Contact/>} />
             <Route path='/projects' element={<Projects/>} />
             <Route path='/weather' element={<Weather/>}/>
           </Routes>

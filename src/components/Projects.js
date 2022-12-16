@@ -4,6 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Figure from 'react-bootstrap/Figure';
 import JustDoIt from '../pictures/JustDoIt.png'
 import SurviveTheHorde from '../pictures/SurviveTheHorde.png'
+import CatchARide from '../pictures/catch-a-ride.png'
 
 const Projects = () => {
   return (
@@ -52,6 +53,30 @@ const Projects = () => {
         height={500}
         alt="171x180"
         src={JustDoIt}
+      />
+    </Figure>
+      {/* <Card.Footer className="text-muted">2 days ago</Card.Footer> */}
+    </Card>
+    <Card className="text-center">
+      {/* <Card.Header>Project 1</Card.Header> */}
+      <Card.Body>
+        <Card.Title>Catch-a-ride</Card.Title>
+        <Card.Text>
+        Catch-A-Ride is an American online marketplace for carpooling. Our website connects drivers and passengers willing to travel together between cities at an agreed upon price.
+        </Card.Text>
+        <h2>Github Link (Frontend):</h2>
+        <Button variant="primary" href='https://github.com/Calvickauer/catch-a-ride-frontend'>Documentation</Button>
+        <h2>Github Link (Backend):</h2>
+        <Button variant="primary" href='https://github.com/Calvickauer/catch-a-ride-backend'>Documentation</Button>
+        <h2>Deployment Link:</h2>
+        <Button variant="primary" href='https://catch-a-ride-us.herokuapp.com/'>Explore Project</Button>
+      </Card.Body>
+      <Figure>
+      <Figure.Image
+        width={800}
+        height={500}
+        alt="171x180"
+        src={CatchARide}
       />
     </Figure>
       {/* <Card.Footer className="text-muted">2 days ago</Card.Footer> */}
